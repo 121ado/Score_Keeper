@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="style">
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/resetButton</item>
+        <item name="android:layout_margin">@dimen/smallMargin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="styleButton">
+        <item name="android:background">@drawable/shape2</item>
+        <item name="android:textSize">@dimen/buttonText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/resetButton</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginLeft">@dimen/smallerMargin</item>
+        <item name="android:layout_marginRight">@dimen/smallerMargin</item>
+        <item name="android:layout_marginBottom">@dimen/smallerMargin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="teamScore" parent="style">
+        <item name="android:layout_width">@dimen/zeroDP</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/scoreSize</item>
+    </style>
+
+    <style name="smallZero" parent="style">
+        <item name="android:layout_width">@dimen/zeroDP</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/zeroSize</item>
+    </style>
+
+    <style name="Linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="numberName" parent="style">
+        <item name="android:layout_width">@dimen/zeroDP</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/shape</item>
+    </style>
+
+</resources>

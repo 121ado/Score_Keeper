@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CounterStrike</string>
+    <string name="won">Team won before bomb was planted/defused</string>
+    <string name="yes">yes</string>
+    <string name="match">Start new match</string>
+    <string name="plant">Bomb plant</string>
+    <string name="defus">Bomb defus</string>
+    <string name="t">Terrorists</string>
+    <string name="ct">Counter\nterrorists</string>
+    <string name="zero">0</string>
+    <string name="score">Team score</string>
+    <string name="scoreEdit">!!! Match end, start new match !!!</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleColor">#E3F2FD</color>
+    <color name="resetButton">#E1F5FE</color>
+    <color name="shape1color1">#802962FF</color>
+    <color name="shape1color2">#C4CDE0</color>
+    <color name="shape2color1">#802196F3</color>
+    <color name="shape2color2">#2196F3</color>
+</resources>

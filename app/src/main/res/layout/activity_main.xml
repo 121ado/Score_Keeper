@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/csgo"
+    android:orientation="vertical"
+    tools:context="com.example.android.counterstrike.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/top_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/score"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/title"
+                android:textStyle="bold" />
+            <LinearLayout
+                style="@style/Linear">
+                <TextView
+                    style="@style/numberName"
+                    android:layout_height="match_parent"
+                    android:text="@string/t" />
+                <TextView
+                    style="@style/numberName"
+                    android:text="@string/ct" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/Linear">
+                <TextView
+                    android:id="@+id/t_points"
+                    style="@style/teamScore"
+                    android:text="@string/zero" />
+                <TextView
+                    android:id="@+id/ct_points"
+                    style="@style/teamScore"
+                    android:text="@string/zero"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/numberName"
+                    android:text="@string/plant" />
+
+                <TextView
+                    style="@style/numberName"
+                    android:text="@string/defus" />
+            </LinearLayout>
+            <LinearLayout style="@style/Linear">
+                <Button
+                    android:id="@+id/tPlant"
+                    style="@style/styleButton"
+                    android:onClick="addPlant"
+                    android:text="@string/yes" />
+                <TextView
+                    android:id="@+id/plant"
+                    style="@style/smallZero"
+                    android:text="@string/zero" />
+                <TextView
+                    android:id="@+id/defus"
+                    style="@style/smallZero"
+                    android:text="@string/zero"
+                    />
+                <Button
+                    android:id="@+id/ctDef"
+                    style="@style/styleButton"
+                    android:onClick="addDefus"
+                    android:text="@string/yes" />
+            </LinearLayout>
+            <TextView
+                style="@style/style"
+                android:background="@drawable/shape"
+                android:text="@string/won" />
+            <LinearLayout
+                style="@style/Linear">
+                <Button
+                    android:id="@+id/tYes"
+                    style="@style/styleButton"
+                    android:onClick="addTKill"
+                    android:text="@string/yes" />
+                <TextView
+                    android:id="@+id/t_Kill"
+                    style="@style/smallZero"
+                    android:text="@string/zero" />
+                <TextView
+                    android:id="@+id/ct_Kill"
+                    style="@style/smallZero"
+                    android:text="@string/zero" />
+                <Button
+                    android:id="@+id/ctYes"
+                    style="@style/styleButton"
+                    android:onClick="addCTKill"
+                    android:text="@string/yes" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginRight="@dimen/margin"
+                android:background="@drawable/shape2"
+                android:onClick="resetButton"
+                android:text="@string/match"
+                android:textColor="@color/resetButton"
+                android:textSize="@dimen/title" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
