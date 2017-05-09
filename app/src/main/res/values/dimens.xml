@@ -14,5 +14,5 @@
     <dimen name="radius">11dp</dimen>
     <dimen name="shapeWidth">2dp</dimen>
     <dimen name="shape2Width">5dp</dimen>
-    <dimen name="one">1</dimen>
+    <integer name="one">1</integer>
 </resources>
